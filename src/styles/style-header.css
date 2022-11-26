@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* a renginini kapsayicidan alsin demek*/
+}
+
+/* body {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+
+} */
+
+nav {
+  height: 90px;
+  width: 100%;
+  border-bottom: 2px solid white;
+  color: white;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-container ul .nav-link {
+  margin-right: 20px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.nav-container ul .nav-link:hover {
+    transition: all .1s;
+    transform: scale(1.2);
+}
+
+.nav-container ul .nav-link:last-child {
+  margin-right: 0;
+}
