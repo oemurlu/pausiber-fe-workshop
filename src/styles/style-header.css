@@ -12,16 +12,6 @@ a {
   color: inherit; /* a renginini kapsayicidan alsin demek*/
 }
 
-/* body {
-  width: 100vw;
-  height: 100vh;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background.jpg);
-  background-size: cover;
-  background-position: center;
-
-} */
-
 nav {
   height: 90px;
   width: 100%;
